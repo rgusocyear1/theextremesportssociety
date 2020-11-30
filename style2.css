@@ -356,8 +356,12 @@ footer > div >img{
     }
 
      #boarderline {
+        margin-top: 20%;
         margin-right: 15%;
         margin-left: 15%;
+        margin-bottom: 20%
+
+       
 
     }
 
