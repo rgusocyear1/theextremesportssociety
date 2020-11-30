@@ -22,6 +22,7 @@ function myFunction(imgs) {
       });
       var marker = new google.maps.Marker ( {
       position: location, 
+      label: {text: 'Cairngorms'},
       map: map
       })
       }
