@@ -1,0 +1,417 @@
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+
+        <style>
+            body{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                border: 0
+            }
+
+    /*Header styling*/
+
+            header{
+                background-color: white;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            #logo{
+                width: 350px;
+                height: 130px;
+
+                float: left;
+
+                margin: 10px;
+            }
+
+            #menu{
+                margin: 25px;
+                overflow: hidden;
+                float:right;
+            }
+
+            #menu a {
+                position: sticky;
+                top: 0;
+                float: right;
+                display: block;
+
+                color: black;
+
+                text-align: center;
+                text-decoration: none;
+
+                padding: 14px 16px;
+
+                margin-top: 10px;
+
+                font-size: 18px;
+                font-family: Verdana;
+                font-weight: bold;
+            }
+
+            #menu a:hover {
+                color: #4099c5;
+            }
+
+            header > [type=text]{
+                float: right;
+
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 5px;
+
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                
+                border: none;
+
+                font-size: 18px;
+
+                background-color:#d9d9d9;
+                
+                border-radius: 10px;
+
+                outline: none;
+            }
+
+            header > [type=text]:focus{
+                box-shadow:  0 0 7px #4099c5;
+            }
+
+            header > [type=submit]{
+                float: right;
+
+                margin-top: 40px;
+                margin-right: 10px;
+
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                
+                font-size: 18px;
+
+                
+                border: none;
+
+                background-color: #bfbfbf;
+
+                border-radius: 10px;
+
+                outline: none;
+            }
+
+            header > [type=submit]:hover{
+                background-color: #b3b3b3;
+                color: #3D746F;
+            }
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                border: none;
+
+                outline: none;
+
+                color: black;
+                background-color: white;
+
+                padding: 14px 16px;
+                margin-top: 10px;
+
+                text-align: center;
+                text-decoration: none;
+
+                font-size: 18px;
+                font-family: Verdana;
+                font-weight: bold;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                margin-bottom: 10px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+                background-color: #d9d9d9;
+                border-radius: 10px;
+            }
+
+    /*End of header styling*/
+
+    /*Main sstyling*/
+            main > img{
+                border-top: 5px solid black;
+                margin-top: 8%;
+                margin-bottom: 3%;
+                width: 100%;
+                height: 50%;
+            }
+
+            #contact{
+                margin-left: 5%;
+
+                font-size: 27px;
+                font-family: Courier;
+            }
+
+            .split{
+                width: 45%;
+            }
+
+
+            #split_left{
+                margin-left: 10%;
+                
+                border: none;
+                border-radius: 10px;
+
+                background-color:#d9d9d9;
+                
+                font-size: 20px;
+            }
+
+            main > div > div > [type=text]{
+                width: 98%;
+
+                margin-left: 1%;
+                margin-top: 1%;
+                margin-right: 1%;
+
+                padding: 5px;
+                padding-left: 10px;
+
+                font-size: 20px;
+
+                border-radius: 5px;
+
+                outline: none;
+                border-style: none;
+
+                font-family: Tahoma;
+            }
+
+            main > div > div > [type=text]:focus{
+                box-shadow:  0 0 10px #4099c5;
+            }
+
+
+            textarea{
+                width: 98%;
+                height: 200px;
+
+                margin-left: 1%;
+                margin-top: 1%;
+                margin-right: 1%;
+                margin-bottom: 1%;
+
+                padding-top: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;                
+
+                font-size: 20px;
+
+                border-radius: 5px;
+
+                outline: none;
+                border-style: none;
+
+                font-family: Tahoma;
+
+                resize: vertical;
+            }
+
+            textarea:focus{
+                box-shadow:  0 0 10px #4099c5;
+            }
+
+            #button{
+                text-align: right;
+            }
+
+            main > div > div > div > [type="submit"]:hover{
+                background-color: #34a8a8;
+            }
+
+            main > div > div > div > [type="submit"]{
+                margin-right: 1%;
+                margin-bottom: 1%;
+                
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                font-size: 20px;
+
+                border-radius: 5px;
+
+                outline: none;
+                border-style: none;
+
+                font-family: Tahoma;
+                color: whitesmoke;
+                background-color: #2F7774;
+            }
+
+            #split_right{
+                position: absolute;
+                top: 70%;
+                left: 45%;
+                
+                text-align: center;
+
+                border: none;
+                border-radius: 10px;
+                z-index: -100;
+            }
+
+            h2{
+                margin-top: 10%;
+
+                padding-top: 8%;
+                padding-left: 10%;
+                padding-right: 10%;
+
+                font-size: 50px;
+                font-family: "New Century Schoolbook";
+                font-weight: normal;
+            }
+
+            p{
+                font-size: 45px;
+                font-family: "Brush Script MT";
+            }
+
+    /*End of main styling*/
+
+    /*Footer styling*/
+
+            footer{
+                background-color: #d9d9d9;
+
+                margin-top: 10%;
+                margin-bottom: 0;
+
+                padding: 5px;
+                padding-right: 10px;
+            }
+
+            footer > div::after{
+                content: "";
+                clear: both;
+                display: table;
+ 			}
+
+            footer > div > a > img{
+                float: right;
+                width: 3.5%;
+                padding: 5px;
+                padding-bottom: 10px;
+                border-radius: 50%;
+            }
+
+    /*End of footer styling*/
+    
+        </style>
+    </head>
+<body>
+    <header>
+        <img id="logo" src="ESS_Logo.jpg" alt="ESS Logo">
+        <button type="submit">Submit</button>
+        <input type= "text" name ="searchfield" placeholder="Search...">
+
+        <div id="menu">
+            
+            <a href = "https://sotiris2007347.github.io/ESS/Contact_Us">Contact Us</a>
+            <a href = "###">Gallery</a>
+            <a href = "###">Events</a>
+            <a href = "###">Members</a>
+
+            <div class="dropdown">
+
+                <button class="dropbtn">Sports &#x25BC</button>
+
+                <div class="dropdown-content">
+                    <a href="#">Wingsuit Flying</a>
+                    <a href="#">Snowboarding</a>
+                    <a href="#">Tree Trecking</a> 
+                    <a href="#">Mountain Biking</a>
+                    <a href="https://sotiris2007347.github.io/ESS/Scuba_Diving">Scuba Diving</a>
+                </div>
+            </div>
+            
+            <a href = "###">Home</a>            
+            
+        </div>
+
+    </header>
+
+    <main>
+        <img id="contact us" src="https://www.kraftjunction.com/wp-content/uploads/2020/07/Contact-Us.png" alt="Contact Us image">
+        
+        <div id="Contact">
+            <h1>Contact ESS</h1>
+        </div>
+        
+        <div class="split">
+            <div id="split_left">
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="phone" placeholder="Phone (Optional)">
+                <textarea id="Message" name="text" placeholder="Message" ></textarea>
+
+                <div id="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+       
+            <div id="split_right">
+                <h2>I’m one of the people that likes adrenaline and new things, like extreme sports. It makes me feel alive.</h2>
+                <p>~ Gisele Bündchen ~</p>
+            </div>            
+        </div>
+    </main>
+
+    <footer>
+        <div id="row">
+            <a href="https://www.rgu.ac.uk/">
+            <img src="https://pbs.twimg.com/profile_images/872088647260147712/-lzhIWZl_400x400.jpg" alt="RGU Logo"></a>
+
+            <a href="https://twitter.com/?lang=en">
+            <img src="https://www.cineramageddon.com/wp-content/uploads/2020/06/twitter-logo.png" alt="Twitter Logo"></a>
+            
+            <a href="https://www.instagram.com/">
+            <img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" alt="Instagram Logo"></a>
+
+            <a href="https://www.facebook.com/">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1dbqIl1XKQRPD1x_E3KKpIUs0p705PYPmA&usqp=CAU" alt="Facebook Logo"></a>
+        </div>
+    </footer>
+
+</body>
+</html>

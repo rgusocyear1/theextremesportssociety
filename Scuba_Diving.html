@@ -1,0 +1,446 @@
+<html lang="en">
+    <head>
+
+        <title>Scuba Diving</title>
+
+        <style>
+            body{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-family: Georgia;
+            }
+
+    /*Header styling*/
+
+            header{
+                background-color: white;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+            }
+
+            #logo{
+                width: 350px;
+                height: 130px;
+
+                float: left;
+
+                margin: 10px;
+            }
+
+            #menu{
+                margin: 25px;
+                overflow: hidden;
+                float:right;
+            }
+
+            #menu a {
+                position: sticky;
+                top: 0;
+                float: right;
+                display: block;
+
+                color: black;
+
+                text-align: center;
+                text-decoration: none;
+
+                padding: 14px 16px;
+
+                margin-top: 10px;
+
+                font-size: 18px;
+                font-family: Verdana;
+                font-weight: bold;
+                
+            }
+
+            #menu a:hover {
+                color: #4099c5;
+            }
+
+            header > [type=text]{
+                float: right;
+
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 5px;
+
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                
+                border: none;
+
+                font-size: 18px;
+
+                background-color:#d9d9d9;
+                
+                border-radius: 10px;
+
+                outline: none;
+            }
+
+            header > [type=text]:focus{
+                box-shadow:  0 0 7px #4099c5;
+            }
+
+            header > [type=submit]{
+                float: right;
+
+                margin-top: 40px;
+                margin-right: 10px;
+
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                
+                font-size: 18px;
+
+                
+                border: none;
+
+                background-color: #bfbfbf;
+
+                border-radius: 10px;
+
+                outline: none;
+            }
+
+            header > [type=submit]:hover{
+                background-color: #b3b3b3;
+                color: #3D746F;
+            }
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                border: none;
+
+                outline: none;
+
+                color: black;
+                background-color: white;
+
+                padding: 14px 16px;
+                margin-top: 10px;
+
+                text-align: center;
+                text-decoration: none;
+
+                font-size: 18px;
+                font-family: Verdana;
+                font-weight: bold;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                margin-bottom: 10px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+                background-color: #d9d9d9;
+                border-radius: 10px;
+            }
+
+    /*End of header styling*/ 
+
+    /*Main styling*/
+            main > img{
+                width: 100%;
+                height: 70%;
+                display: block;
+            }
+
+            #title{
+                margin-left: 5%;
+                margin-top: 50px;
+
+                font-size: 27px;
+                font-family: Courier;
+            }
+
+            #infromation{
+                margin-left: 5%;
+                
+                width: 90%;
+
+                font-size: 22px;
+
+                text-align: justify;
+                text-justify: inter-word;
+            }
+
+            h2{
+                margin-top: 120px;
+
+                font-size: 50px;
+                font-family: Courier;
+            }
+
+            main > div > div > div > div > ul > li{
+                padding-bottom: 30px;
+
+                font-size: 20px;
+            }
+
+            table{
+                margin-left: 10%;
+                margin-top: 5%;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                padding: 15px 30px;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            } 
+
+            .column {
+                float: left;
+                width: 40%;
+                margin-left: 5%;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            #diagram{
+                margin-top: 7%;
+                margin-left: 15%;
+            }
+
+            iframe{
+                float: right;
+                margin-top: 35px;
+            }
+
+    /*End of main styling*/
+
+    /*Footer styling*/
+
+            footer{
+                background-color: #d9d9d9;
+
+                margin-top: 10%;
+                margin-bottom: 0;
+
+                padding: 5px;
+                padding-right: 10px;
+            }
+
+            footer > div::after{
+                content: "";
+                clear: both;
+                display: table;
+ 			}
+
+            footer > div > a > img{
+                float: right;
+                width: 3.5%;
+                padding: 5px;
+                padding-bottom: 10px;
+                border-radius: 50%;
+            }
+            
+
+    /*End of footer styling*/
+        </style>
+    </head>
+<body>
+    <header>
+        <img id="logo" src="ESS_Logo.jpg" alt="ESS_logo">
+        <button type="submit">Submit</button>
+        <input type= "text" name ="searchfield" placeholder="Search...">
+
+        <div id="menu">
+            
+            <a href = "https://sotiris2007347.github.io/ESS/Contact_Us">Contact Us</a>
+            <a href = "###">Gallery</a>
+            <a href = "###">Events</a>
+            <a href = "###">Members</a>
+
+            <div class="dropdown">
+
+                <button class="dropbtn">Sports &#x25BC</button>
+
+                <div class="dropdown-content">
+                    <a href="#">Wingsuit Flying</a>
+                    <a href="#">Snowboarding</a>
+                    <a href="#">Tree Trecking</a> 
+                    <a href="#">Mountain Biking</a>
+                    <a href="https://sotiris2007347.github.io/ESS/Scuba_Diving">Scuba Diving</a>
+                </div>
+            </div>
+            
+            <a href = "###">Home</a>            
+            
+        </div>
+
+    </header>
+
+    <main>
+        <img id="Scuba_diver" src="https://subwing-palawan.com/wp-content/uploads/2017/10/open_water_title.jpg" alt="Scuba diver image">
+
+        <div id="title">
+            <h1>Scuba Diving</h1>
+        </div>
+
+        <div id="infromation">
+            <p><strong>Scuba diving</strong> is a mode of underwater diving where the diver uses a self-contained underwater breathing apparatus (scuba), which is completely independent of surface supply, to breathe underwater. Scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater independence and freedom of movement than surface-supplied divers, and longer underwater endurance than breath-hold divers. Although the use of compressed air is common, a mixture of air and oxygen called enriched air or nitrox has become popular due to its benefit of reduced nitrogen intake during long or repetitive dives.</p>
+
+            <p> Scuba diving may be done recreationally or professionally in several applications, including scientific, military and public safety roles, but most commercial diving uses surface-supplied diving equipment when this is practicable. Scuba divers engaged in armed forces covert operations may be referred to as frogmen, combat divers or attack swimmers</p>
+
+            <h2>Equipment</h2>
+
+            <div class="row">
+
+                <div class="column">
+            
+                    <div id="Equipment_list">
+                        <ul>
+                            <li>
+                                <strong>Primary mask and backup mask</strong> - Although any scuba mask is adequate, tec divers prefer compact masks for minimum resistance in the water. A backup mask is carried in a pocket in case of loss or damage to the primary mask.
+                            </li>
+
+                            <li>
+                                <strong>Fins</strong> - Tec divers often use dry suits, requiring large style, open-heel adjustable fins.
+                            </li>
+
+                            <li>
+                                <strong>Wing-typed BCD and harness</strong> - A high capacity BCD with a backup gas bladder mounts between the harness and cylinder. The backup bladder is required because a tec diver may be too heavy to swim to the surface if the main BCD fails. The harness is a shoulder, waist and crotch strap assembly that holds tanks to the tec diver’s back, with D-rings mounted on the shoulders and at the waist for clipping equipment.
+                            </li>
+
+                            <li>
+                                <strong>Primary and secondary regulator</strong> - The primary regulator has a two-metre/seven-foot hose for sharing gas with a teammate in an emergency. The secondary regulator is independent for use in case of malfunction in the primary regulator. The secondary is also used when sharing gas with a teammate via the primary regulator.
+                            </li>
+
+                            <li>
+                                <strong>Twin cylinders, decompression cylinders/stage bottles</strong> - High-capacity cylinders hold high-pressure compressed air, enriched air or trimix depending upon dive requirements. An independent decompression cylinder and regulator is clipped to a harness on the side. Extra tanks are used to extend dive time and/or to carry a gas for optimizing decompression. Often, two cylinders are carried.
+                            </li>
+
+                            <li>
+                                <strong>Dry suit</strong> - Provides insulation for a comfortable dive over a long duration.
+                            </li>
+
+                            <li>
+                                <strong>Other equipment</strong> - Compass, slate, delayed surface marker buoy (DSMB), emergency signaling devices, backup dive tables, Z-knife, shears, safety reel, and lift bag.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img id="diagram" src="https://www.eastwooddivers.co.uk/images/divekit.jpg" alt="Scouba diving equipment diagram">
+                </div>
+
+            </div>
+        
+            <h2>ESS scuba diving training lessons timetable</h2>
+
+            <div class="row">
+                <div class="column">
+                    <table>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+            
+                        <tr>
+                            <td>Monday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Thursday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Friday</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Saturday</td>
+                            <td>09:00 - 11:00</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Sunday</td>
+                            <td>09:00 - 11:00</td>
+                        </tr>
+            
+                    </table>
+
+                </div>
+
+                <div class="column">
+
+                    <iframe width="120%" height="49.5%" src="https://www.youtube.com/embed/FH8H76QTgtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>         
+        
+        
+        
+    </main>
+
+    <footer>
+        <div id="row">
+            <a href="https://www.rgu.ac.uk/">
+            <img src="https://pbs.twimg.com/profile_images/872088647260147712/-lzhIWZl_400x400.jpg" alt="RGU Logo"></a>
+
+            <a href="https://twitter.com/?lang=en">
+            <img src="https://www.cineramageddon.com/wp-content/uploads/2020/06/twitter-logo.png" alt="Twitter Logo"></a>
+            
+            <a href="https://www.instagram.com/">
+            <img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" alt="Instagram Logo"></a>
+
+            <a href="https://www.facebook.com/">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1dbqIl1XKQRPD1x_E3KKpIUs0p705PYPmA&usqp=CAU" alt="Facebook Logo"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
