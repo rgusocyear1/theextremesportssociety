@@ -1,10 +1,10 @@
- #logo{
-  width: 350px;
-  height: 130px;
+#logo{
+  width: 22%;
+  height: 70%;
   float: left;
-  margin: 10px;
-   
-  #headStyle{
+  padding: 1%;
+}
+#headStyle{
     width: 100%;
     height: 20%;
     z-index: 1;
@@ -356,11 +356,8 @@ footer > div >img{
     }
 
      #boarderline {
-        margin-top: 20%;
         margin-right: 15%;
         margin-left: 15%;
-
-       
 
     }
 
