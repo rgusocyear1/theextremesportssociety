@@ -265,6 +265,7 @@
   color: white;
   font-size: 35px;
   cursor: pointer;
+  z-index: 100;
 }
 
 /*Footer styling*/
