@@ -10,133 +10,155 @@
     z-index: 1;
 }
   
-header {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+            header{
+                background-color: white;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+            }
 
-#menu {
-    margin: 1%;
-    overflow: hidden;
-    float:right;
-}
+            #logo{
+                width: 350px;
+                height: 130px;
 
-#menu a {
-    position: sticky;
-    top: 0;
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
-    margin-top: 10px;
-    font-size: 18px;
-    font-family: Verdana;
-    font-weight: bold;
-    z-index: 5;
-}
+                float: left;
 
-#menu a:hover {
-    color: #4099c5;
-}
+                margin: 10px;
+            }
 
-header > [type=text]{
-    float: right;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border: none;
-    font-size: 18px;
-    background-color:#d9d9d9;
-    border-radius: 10px;
-    outline: none;
-}
+            #menu{
+                margin: 25px;
+                overflow: hidden;
+                float:right;
+            }
 
-header > [type=text]:focus{
-    box-shadow:  0 0 7px #4099c5;
-}
+            #menu a {
+                position: sticky;
+                top: 0;
+                float: right;
+                display: block;
 
-header > [type=submit] {
-    float: right;
-    margin-top: 30px;
-    margin-right: 16px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    border: none;
-    background-color: #bfbfbf;
-    border-radius: 10px;
-    outline: none;
-}
+                color: black;
 
-header > [type=submit]:hover{
-    background-color: #b3b3b3;
-    color: #3D746F;
-}
+                text-align: center;
+                text-decoration: none;
 
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
+                padding: 14px 16px;
 
-.dropdown .dropbtn {
-    border: none;
+                margin-top: 10px;
 
-    outline: none;
+                font-size: 18px;
+                font-family: Verdana;
+                font-weight: bold;
+                
+            }
 
-    color: black;
-    background-color: white;
+            #menu a:hover {
+                color: #4099c5;
+            }
 
-    padding: 14px 16px;
-    margin-top: 10px;
+            header > [type=text]{
+                float: right;
 
-    text-align: center;
-    text-decoration: none;
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 5px;
 
-    font-size: 18px;
-    font-family: Verdana;
-    font-weight: bold;
-}
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                
+                border: none;
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+                font-size: 18px;
 
-    
-}
+                background-color:#d9d9d9;
+                
+                border-radius: 10px;
 
-.dropdown-content a {
-    float: none;
-    color: black;
-    margin-bottom: 10px;
-    
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
+                outline: none;
+            }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #d9d9d9;
-    border-radius: 10px;
-}
+            header > [type=text]:focus{
+                box-shadow:  0 0 7px #4099c5;
+            }
 
-/* end of header*/
+            header > [type=submit]{
+                float: right;
 
+                margin-top: 40px;
+                margin-right: 10px;
 
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                
+                font-size: 18px;
 
-Header
+                
+                border: none;
+
+                background-color: #bfbfbf;
+
+                border-radius: 10px;
+
+                outline: none;
+            }
+
+            header > [type=submit]:hover{
+                background-color: #b3b3b3;
+                color: #3D746F;
+            }
+
+            .dropdown {
+                float: right;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                border: none;
+
+                outline: none;
+
+                color: black;
+                background-color: white;
+
+                padding: 14px 16px;
+                margin-top: 10px;
+
+                text-align: center;
+                text-decoration: none;
+
+                font-size: 18px;
+                font-family: Verdana;
+                font-weight: bold;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                margin-bottom: 10px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+                background-color: #d9d9d9;
+                border-radius: 10px;
+            }
 
 
   /* Image banner on Snowboarding page */
