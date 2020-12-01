@@ -159,13 +159,9 @@ header > [type=submit]:hover{
 
 /* end of header*/
 #banner{
-  position: fixed;
-  width: 100%;
-  height: 25%;
-  z-index: 100;
-  margin-bottom: 2.5%;
-  margin-top: 3%;
-  top:10%
+   width: 100%;
+   height: 70%;
+   display: block;
   
 
 }
