@@ -212,7 +212,7 @@
     z-index: 10;
   }
 
- /* The Gallery page grid: Four equal columns that floats next to each other */
+/* The Gallery page grid: Four equal columns that floats next to each other */
 .column {
     float: left;
     width: 18%;
