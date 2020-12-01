@@ -15,7 +15,7 @@
                 position: fixed;
                 top: 0;
                 width: 100%;
-                z-index: 100;
+                z-index: 1;
             }
 
             #logo{
@@ -217,7 +217,7 @@
     float: left;
     width: 18%;
     padding: 3%;
-    z-index: 1;
+    z-index: 10;
 }
 
 /* Style the images inside the grid */
@@ -265,6 +265,7 @@
   color: white;
   font-size: 35px;
   cursor: pointer;
+  z-index: 10;
 }
 
 /*Footer styling*/
