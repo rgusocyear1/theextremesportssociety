@@ -88,7 +88,7 @@ header > [type=submit]{
     padding-left: 10px;
     padding-bottom: 10px;
     
-    font-size: 20px;
+    font-size: 18px;
 
     
     border: none;
@@ -124,9 +124,9 @@ header > [type=submit]:hover{
     text-align: center;
     text-decoration: none;
 
-    font-size: 20px;
+    font-size: 18px;
     font-family: Verdana;
-    font-weight: bold;
+   font-weight:bold;
 }
 
 .dropdown-content {
