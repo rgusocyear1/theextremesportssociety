@@ -254,31 +254,30 @@ Header
     padding: 15px;
   }
 
-footer{
+
+  footer{
     background-color: #d9d9d9;
-    width: 100%;
-    margin-top: auto;
+
+    margin-top: 10%;
+    margin-bottom: 0;
+
     padding: 5px;
     padding-right: 10px;
-    z-index: 20;
-    }
+}
 
 footer > div::after{
     content: "";
     clear: both;
     display: table;
-    z-index: 20;
- 	}
+}
 
-footer > div >img{
+footer > div > a > img{
     float: right;
     width: 3.5%;
     padding: 5px;
     padding-bottom: 10px;
     border-radius: 50%;
-    margin-right: 10px;
-    z-index: 20;
-    }
+}
 
 
     /* Container Styling */
